@@ -3,7 +3,7 @@
 void Board::updateTime(void)
 {
   _dt = _clock.getDateTime();
-	// https://electronicfreakblog.wordpress.com/2014/03/06/die-zeit-im-sommer-und-im-winter/#more-413
+  // https://electronicfreakblog.wordpress.com/2014/03/06/die-zeit-im-sommer-und-im-winter/#more-413
   if (_dt.dayOfWeek == 7) {
     _dt.dayOfWeek = 0;
   }
